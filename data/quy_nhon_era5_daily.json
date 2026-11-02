@@ -1,0 +1,15 @@
+{
+  "source": "Open-Meteo Historical Weather API (ERA5 reanalysis)",
+  "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.8&longitude=109.2&start_date=2016-01-01&end_date=2026-10-25&daily=temperature_2m_mean&models=era5&timezone=Asia%2FBangkok",
+  "downloaded_at": "2026-11-01T02:45:58+00:00",
+  "grid_latitude": 13.75,
+  "grid_longitude": 109.25,
+  "elevation_m": 1.0,
+  "timezone": "Asia/Bangkok",
+  "units": {
+    "time": "iso8601",
+    "temperature_2m_mean": "°C"
+  },
+  "n_days": 3951,
+  "n_missing": 0
+}

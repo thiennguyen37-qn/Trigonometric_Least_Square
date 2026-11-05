@@ -21,13 +21,13 @@ python fetch_data.py   # không bắt buộc, dữ liệu đã có sẵn trong d
 
 ## Kết quả chính
 
-Khớp trên 2016 – 2024, kiểm tra trên 01/2025 – 10/2026, với $T = 365.25$ ngày và $K = 4$:
+Khớp trên 2016 – 2024, chọn $K$ theo RMSE nhỏ nhất trên năm 2025 (được $K = 2$), kiểm tra trên 01/2026 – 10/2026, với $T = 365.25$ ngày:
 
 | Mô hình | RMSE kiểm tra (°C) |
 |---|---|
-| Hằng số (trung bình tập huấn luyện) | 2.666 |
-| Trung bình khí hậu theo ngày | 1.102 |
-| **TLS** | **1.022** |
+| Hằng số (trung bình tập huấn luyện) | 2.664 |
+| Trung bình khí hậu theo ngày | 0.969 |
+| **TLS** | **0.898** |
 
 ## Nguồn dữ liệu
 
